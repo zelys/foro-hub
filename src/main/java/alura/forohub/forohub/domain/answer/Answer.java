@@ -34,7 +34,7 @@ public class Answer {
     @JoinColumn(name = "topic_id", nullable = false)
     private Topic topic;
 
-    private LocalDateTime creationDate = LocalDateTime.now();
+    private LocalDateTime creationDate;
     private LocalDateTime updateDate;
 
     @ManyToOne
