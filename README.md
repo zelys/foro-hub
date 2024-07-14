@@ -67,11 +67,11 @@ VALUES ('user.admin', 'user.admin@foro.hub', '$2a$10$U8JvdE7qPbAIGlM7WoY2y.fn.Pw
 }
 ```
 
-![Captura solicitud de token en Insomnia](img/img1.png)
+![Captura solicitud de token en Insomnia](https://i.imgur.com/4rmZOhg.png?1)
 
 - Copiar el token y agregarlo a `Auth` como Bearer Token para las demas solicitudes
 
-![Captura agregar token a solicitud](img/img2.png)
+![Captura agregar token a solicitud](https://i.imgur.com/GtPWNPv.png?2)
 
 - Creando un primer tópico
 
@@ -85,7 +85,7 @@ VALUES ('user.admin', 'user.admin@foro.hub', '$2a$10$U8JvdE7qPbAIGlM7WoY2y.fn.Pw
 }
 ```
 
-![Captura agregando un tópico](img/img3.png)
+![Captura agregando un tópico](https://i.imgur.com/8bXTZx0.png?1)
 
 ## CONTACTO
 
