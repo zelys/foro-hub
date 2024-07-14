@@ -43,8 +43,7 @@ Para correr el **ForoHub** en tu maquina, asegúrate de tener los siguientes pro
 - Crear PROFILE
 
 ```sql
-#
-CREAR ROL DE USUARIO
+/* CREAR ROL DE USUARIO */
 INSERT INTO user_profiles (name)
 VALUES ('ADMIN');
 ```
@@ -52,8 +51,7 @@ VALUES ('ADMIN');
 - Crear USER, encriptar password con [Bcrypt Password Generator](https://www.browserling.com/tools/bcrypt) (ej. 123456).
 
 ```sql
-#
-CREAR USUARIO ADMIN
+/* CREAR USUARIO ADMIN */
 INSERT INTO users (name, email, password, profile_id)
 VALUES ('user.admin', 'user.admin@foro.hub', '$2a$10$U8JvdE7qPbAIGlM7WoY2y.fn.Pwom6jC9hM6f9g9zN1oj/r9p.8J.', 1);
 ```
