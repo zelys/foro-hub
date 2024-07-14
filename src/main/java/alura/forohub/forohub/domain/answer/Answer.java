@@ -35,6 +35,7 @@ public class Answer {
     private Topic topic;
 
     private LocalDateTime creationDate = LocalDateTime.now();
+    private LocalDateTime updateDate;
 
     @ManyToOne
     @JoinColumn(name = "author_id", nullable = false)
